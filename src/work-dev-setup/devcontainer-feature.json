@@ -1,0 +1,14 @@
+{
+  "id": "work-dev-setup",
+  "version": "1.0.0",
+  "name": "Work Dev Setup",
+  "description": "Personal development environment with system tools, dotfiles, and configuration",
+  "documentationURL": "https://github.com/alexanfl/devcontainer-features/tree/main/src/work-dev-setup",
+  "options": {
+    "dotfilesRepo": {
+      "type": "string",
+      "description": "URL of dotfiles repository",
+      "default": "git@github.com:alexanfl/config-files.git"
+    }
+  }
+}
