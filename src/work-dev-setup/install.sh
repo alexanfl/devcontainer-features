@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DOTFILES_REPO="${DOTFILES_REPO:-git@github.com:alexanfl/config-files.git}"
+DOTFILES_REPO="${DOTFILES_REPO:-https://github.com/alexanfl/config-files.git}"
 
 echo "Installing work dev setup feature..."
 
